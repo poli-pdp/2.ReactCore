@@ -1,0 +1,15 @@
+picture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+img.disabled {
+    opacity: 0.3;
+}
