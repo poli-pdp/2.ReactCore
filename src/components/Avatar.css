@@ -5,9 +5,16 @@ picture {
     width: 100px;
 }
 
+picture.is-small {
+    width: 50px;
+}
+
+picture.is-large {
+    width: 150px;
+}
+
 img {
     border-radius: 50%;
-    width: 100px;
 }
 
 img.disabled {

@@ -3,14 +3,14 @@ import "./Avatar.css";
 
 const Avatar = (props) => {
   const [enabledImg, setEnabledImg] = useState(true);
-
+  const pictureSize = props.size !== "" ? `is-${props.size}` : "";
   /*
   const handlerClick = () => {
     setEnabledImg(!enabledImg);
   };
 */
   return (
-    <picture>
+    <picture className={pictureSize}>
       <img
         className={enabledImg ? "" : "disabled"}
         src={props.src}
